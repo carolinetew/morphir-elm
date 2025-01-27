@@ -14,7 +14,7 @@ module.exports = {
     '^d3$': '<rootDir>/cli/node_modules/d3/dist/d3.js',
     '~/(.*)$': '<rootDir>/morphir-ts/src/$1',
   },
-  verbose: true, 
+  verbose: false, 
   silent: false,
   testTimeout: 20000,
 };
